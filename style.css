@@ -44,3 +44,4 @@ details.more-obs{margin:8px 0;padding:6px 10px;border:1px solid #F5C54244;border
 .compare-row{margin:10px 0}.look-hint{border-left:3px solid #7CFFB2;padding:6px 12px;margin:10px 0;background:#0e2448;border-radius:6px}
 .speculate{border:1px dashed #ff9f9f;border-radius:12px;padding:12px 16px;margin:24px 0}.speculate dt{font-weight:700;margin-top:10px}.speculate dd{margin:2px 0 0}
 .skulls .pair-grid.ai-after{grid-template-columns:minmax(0,1fr);max-width:620px}
+.fiction-note{font-size:1.05rem}details.intro-more{margin:18px 0;padding:10px 14px;border:1px solid #F5C54266;border-radius:12px}
