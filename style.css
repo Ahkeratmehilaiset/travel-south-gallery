@@ -40,3 +40,4 @@ details.more-obs{margin:8px 0;padding:6px 10px;border:1px solid #F5C54244;border
 .kuva>h3{grid-column:1/-1;margin:0}
 .pari figure img{width:100%;height:auto;max-height:min(70vh,560px);object-fit:contain}
 .skulls .pair-grid figure img{max-height:min(70vh,560px);object-fit:contain}
+.trace-steps{padding-left:1.2em}.trace-steps li{margin:8px 0}
