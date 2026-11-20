@@ -35,3 +35,5 @@ figure.ai.hyp .ai-kind{color:#F5C542}
 .jani-quote{margin:12px 0 16px;padding:10px 16px;border-left:4px solid #F5C542;background:#0e2448;border-radius:8px}.jani-quote p{margin:0;font-size:1.1rem;font-style:italic}.jani-quote footer{font-size:.85rem;opacity:.8;margin-top:4px}
 .three-q ol{padding-left:1.2em}.three-q li{margin:8px 0}
 details.more-obs{margin:8px 0;padding:6px 10px;border:1px solid #F5C54244;border-radius:10px}
+.compare-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:12px 0}
+.ccard{border:1px solid #F5C54266;border-radius:12px;padding:12px 14px;background:#0e2448}.ccard h3{margin:0 0 6px;color:#F5C542}.ccard dt{font-weight:700;margin-top:8px}.ccard dd{margin:2px 0 0}
