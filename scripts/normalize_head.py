@@ -40,8 +40,8 @@ def fix(l, s):
                 (' aria-current="page"' if x==l else '') + f'>{NAMES[x]}</a>' for x in present)
             return m.group(1) + items + m.group(2)
         return r
-    h = re.sub(r'(<nav class="langs"[^>]*>).*?(</nav>)', nav('langs', s), h, count=1, flags=re.S)
-    h = re.sub(r'(<nav class="hub-langs"[^>]*>).*?(</nav>)', nav('hub', s), h, count=1, flags=re.S)
+    h = re.sub(r'(<nav [^>]*?class="langs"[^>]*>).*?(</nav>)', nav('langs', s), h, count=1, flags=re.S)
+    h = re.sub(r'(<nav [^>]*?class="hub-langs"[^>]*>).*?(</nav>)', nav('hub', s), h, count=1, flags=re.S)
     # GoatCounter: täsmälleen yksi
     h = h.replace(GC, '')
     h = h.replace('</body>', GC + '</body>', 1)
