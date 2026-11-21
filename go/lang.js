@@ -2,11 +2,9 @@
  *
  * KNOWN: browser languages we understand (extend here).
  * READY: language prefixes that already have published pages.
- *        Languages in KNOWN but not READY (currently ar) are
+ *        Languages in KNOWN but not READY (currently none) are
  *        checked with a same-origin fetch; if the page is missing
- *        the visitor is sent to the English path. Once /ar/ pages
- *        exist, add "ar" to READY for an instant redirect (the
- *        fetch fallback already routes there if the page returns OK).
+ *        the visitor is sent to the English path.
  * English ("en") is matched so a visitor who prefers English over
  * another listed language is not sent to that other language.
  */
@@ -15,7 +13,7 @@
 
   var ROOT = "/travel-south-gallery/";
   var KNOWN = ["fi", "sv", "de", "fr", "es", "it", "ru", "uk", "ja", "ar"];
-  var READY = ["fi", "sv", "de", "fr", "es", "it", "ru", "uk", "ja"];
+  var READY = ["fi", "sv", "de", "fr", "es", "it", "ru", "uk", "ja", "ar"];
 
   function browserLangs() {
     var list = navigator.languages;
