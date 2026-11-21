@@ -57,3 +57,4 @@ details.more-obs{margin:8px 0;padding:6px 10px;border:1px solid #F5C54244;border
 [dir=rtl] .langs a[lang=ar],a[lang=ar][dir=rtl]{font-family:"Noto Naskh Arabic","Noto Sans Arabic","Segoe UI","Tahoma",sans-serif}
 [dir=rtl] abbr.tag{letter-spacing:0}
 [dir=rtl] .photo-badge,[dir=rtl] .then-now .ai-badge{margin:0 0 4px 6px}
+.story-intro{margin:1.2em 0;padding:.8em 1em;border-inline-start:4px solid #b5651d;background:rgba(181,101,29,.06)}.story-intro h2{margin-top:0}.story-scene{font-style:italic}.story-scene b{font-style:normal}
