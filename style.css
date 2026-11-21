@@ -48,3 +48,4 @@ details.more-obs{margin:8px 0;padding:6px 10px;border:1px solid #F5C54244;border
 .research-2026 li{margin:8px 0}
 /* start hub */
 .lead-photo.portrait{max-width:560px;margin-left:auto;margin-right:auto}.lead-photo.portrait img{aspect-ratio:auto;object-fit:contain;background:#0e2448}.jani-quote{max-width:760px;margin:16px auto 28px}.hub-langs-lead{max-width:760px;margin:8px 0 12px;color:#c9d6ea}.hub-langs{display:flex;flex-wrap:wrap;gap:8px 10px;margin:8px 0 32px}.hub-langs a{display:inline-block;padding:8px 12px;border:1px solid #16305a;border-radius:10px;text-decoration:none;color:#E6EEF8}.hub-langs a:hover{border-color:#F5C542;color:#F5C542}.hub-langs a[aria-current]{border-color:#F5C542;color:#F5C542;font-weight:700}.card.fiction small{color:#F5C542}.jani-quote footer{border:0;padding:0;text-align:inherit}
+.start.hub{grid-column:1/-1}
