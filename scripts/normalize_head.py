@@ -59,3 +59,16 @@ for l in present:
 sm.append('</urlset>')
 open(os.path.join(ROOT,'sitemap.xml'),'w').write('\n'.join(sm)+'\n')
 print(f'{n} sivua päivitetty; kielet: {", ".join(present)}; sitemap {len(present)*len(slugs)} osoitetta')
+
+# Google Search Console: pidä juuren vahvistustiedosto ja meta vain etusivulla
+GSC_FILE = 'google75945735959868c9.html'
+GSC_BODY = 'google-site-verification: google75945735959868c9.html\n'
+GSC_META = '<meta name="google-site-verification" content="GByCqlC9y807ogME0jnhjTvwxDA1xsX-mpf8ur_sNko" />'
+gsc_path = os.path.join(ROOT, GSC_FILE)
+if not os.path.isfile(gsc_path) or open(gsc_path, encoding='utf-8').read() != GSC_BODY:
+    open(gsc_path, 'w', encoding='utf-8').write(GSC_BODY)
+root_index = os.path.join(ROOT, 'index.html')
+rh = open(root_index, encoding='utf-8').read()
+if GSC_META not in rh:
+    rh = rh.replace('</head>', GSC_META + '</head>', 1)
+    open(root_index, 'w', encoding='utf-8').write(rh)
